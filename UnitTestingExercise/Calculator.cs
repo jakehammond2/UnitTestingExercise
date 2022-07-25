@@ -24,20 +24,30 @@ namespace UnitTestingExercise
         // Step 4: 
         // Create a Subtract method that accepts 2 integers
         // Keep track of which number is getting passed as minuend and subtrahend
-
+        public int Subtract(int x, int y)
+        {
+            return x - y; 
+        }
 
         // Step 5: Navigate to the UnitTests.cs file and complete the SubtractTest unit test method
 
 
         // Step 6: 
         // Create a Multiply method that passes 2 integers
-
+        public int  Multiply(int x, int y)
+        {
+            return x * y;
+        }
 
         // Step 7: Navigate to the UnitTests.cs file and complete the MultiplyTest unit test method 
 
 
         // Step 8: 
         // Create a Divide method that passes 2 integers
+        public int Divide(int x, int y)
+        {
+            return x / y;
+        }
 
         // Step 9: Navigate to the UnitTests.cs file and complete the DivideTest unit test method 
 
